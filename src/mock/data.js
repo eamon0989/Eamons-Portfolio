@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Steve Jobs tribute page',
     info: 'A custom made tribute page made to demonste the Full Bleed effect using custom CSS and CSS Grid.',
     info2: '',
-    url: 'https://.eamon.eu',
+    url: 'https://eamon.eu',
     repo: 'https://github.com/eamon0989/freecodecamptribute', // if no repo, the button will not show up
   },
   {
