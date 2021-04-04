@@ -12,7 +12,7 @@ export const heroData = {
   title: '',
   name: `Eamon O'Callaghan`,
   subtitle: `I'm a JS and PHP Developer`,
-  cta: '',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'steve_jobs-wide.jpg',
+    title: 'Steve Jobs tribute page',
+    info: 'A custom made tribute page made to demonste the Full Bleed effect using custom CSS and CSS Grid.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'www.eamon.eu',
+    repo: 'https://github.com/eamon0989/freecodecamptribute', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
