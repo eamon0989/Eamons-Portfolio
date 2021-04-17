@@ -30,16 +30,17 @@ export const projectsData = [
     id: nanoid(),
     img: 'steve_jobs-wide.jpg',
     title: 'Steve Jobs tribute page',
-    info: 'A custom made tribute page made to demonste the Full Bleed effect using custom CSS and CSS Grid.',
+    info:
+      'A custom made tribute page made to demonste the Full Bleed effect using custom CSS and CSS Grid. Made entirely custom to demonstrate CSS and design skills',
     info2: '',
     url: 'https://eamon.eu',
     repo: 'https://github.com/eamon0989/freecodecamptribute', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'hashing.png',
     title: 'Md5 hashing and cracking',
-    info: `A project I made to convert a 4 digit pin to it's md5 hash, then brute force it by checking against all possible options.`,
+    info: `A project I made to convert a 4 digit pin to it's md5 hash, then brute force it by checking against all possible options. Written using vanilla JS, it also checks the input and only allows the correct input type.`,
     info2: '',
     url: 'https://hashing.netlify.app/',
     repo: 'https://github.com/eamon0989/hashing', // if no repo, the button will not show up
@@ -47,11 +48,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'PHP pin cracking',
+    info: `A faster version of my Javascript md5 pin cracker, it converts a 4 digit pin to an md5 hash, then brute forces it. It works on the server so it's much faster and doesn't hang the browser like the Javascript version.`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://pincracking.000webhostapp.com/',
+    repo: 'https://github.com/eamon0989/courserahashes', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'eamon0989@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +69,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Eamon74493541',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/eamonocallaghan/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/eamon0989',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
