@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hi, my name is',
   name: `Eamon O'Callaghan`,
   subtitle: `I'm a JS and PHP Developer`,
   cta: 'Learn more',
