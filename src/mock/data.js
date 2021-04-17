@@ -42,8 +42,8 @@ export const projectsData = [
     title: 'Md5 hashing and cracking',
     info: `A project I made to convert a 4 digit pin to it's md5 hash, then brute force it by checking against all possible options. Written using vanilla JS, it also checks the input and only allows the correct input type.`,
     info2: '',
-    url: 'https://hashing.netlify.app/',
-    repo: 'https://github.com/eamon0989/hashing', // if no repo, the button will not show up
+    url: 'https://md5cracker.netlify.app/',
+    repo: 'https://github.com/eamon0989/bulmapincracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
