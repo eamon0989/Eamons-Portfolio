@@ -33,7 +33,7 @@ export const projectsData = [
     info:
       'A custom made tribute page made to demonste the Full Bleed effect using custom CSS and CSS Grid. Made entirely custom to demonstrate CSS and design skills',
     info2: '',
-    url: 'https://eamon.eu',
+    url: 'https://stevejobstribute.netlify.app/',
     repo: 'https://github.com/eamon0989/freecodecamptribute', // if no repo, the button will not show up
   },
   {
