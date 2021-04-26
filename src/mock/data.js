@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: `Eamon O'Callaghan Full Stack Developer`, // e.g: 'Name | Developer'
+  title: `Eamon's Portfolio`, // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -91,5 +91,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
