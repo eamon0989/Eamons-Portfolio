@@ -38,21 +38,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project.png',
+    title: 'PHP pin cracking',
+    info: `A faster version of my Javascript md5 pin cracker, it converts a 4 digit pin to an md5 hash, then brute forces it. It works on the server so it's much faster and doesn't hang the browser like the Javascript version.`,
+    info2: '',
+    url: 'https://pincracking.000webhostapp.com/',
+    repo: 'https://github.com/eamon0989/courserahashes', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'hashing.png',
     title: 'Md5 hashing and cracking',
     info: `A project I made to convert a 4 digit pin to it's md5 hash, then brute force it by checking against all possible options. Written using vanilla JS, it also checks the input and only allows the correct input type.`,
     info2: '',
     url: 'https://md5cracker.netlify.app/',
     repo: 'https://github.com/eamon0989/bulmapincracker', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'PHP pin cracking',
-    info: `A faster version of my Javascript md5 pin cracker, it converts a 4 digit pin to an md5 hash, then brute forces it. It works on the server so it's much faster and doesn't hang the browser like the Javascript version.`,
-    info2: '',
-    url: 'https://pincracking.000webhostapp.com/',
-    repo: 'https://github.com/eamon0989/courserahashes', // if no repo, the button will not show up
   },
 ];
 
