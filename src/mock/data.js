@@ -38,6 +38,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'toDolist.png',
+    title: 'ToDo List App',
+    info: `A standard toDo list app with included local storage so your changes will save when you refresh the page. The interface changes depending on whether you are using a mouse or a touch device. It can detect swipes and uses them to delete items from the list. It includes a reset button to clear local storage and reset the app. It includes smooth animations and user input sanitization. It can be installed as a PWA and used offline.`,
+    info2: '',
+    url: 'https://jsvanillatodo.netlify.app/',
+    repo: 'https://github.com/eamon0989/vanillatodolist', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.png',
     title: 'PHP pin cracking',
     info: `A faster version of my Javascript md5 pin cracker, it converts a 4 digit pin to an md5 hash, then brute forces it. It works on the server so it's much faster and doesn't hang the browser like the Javascript version.`,
