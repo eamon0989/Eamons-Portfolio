@@ -11,13 +11,13 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is ',
   name: `Eamon O'Callaghan`,
-  subtitle: `I'm a Junior JavaScript and PHP Developer`,
+  subtitle: `I'm a Junior JavaScript FullStack Developer`,
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profilepic.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -80,11 +80,11 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/Eamon74493541',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://medium.com/@eamonocallaghan',
+    },
     {
       id: nanoid(),
       name: 'linkedin',
